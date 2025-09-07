@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <h2>Welcome To <span th:text="${session.sessionUser.name}"></span></h2>
+    <h3>
+		<a th:href="@{/logout}">Logout</a>
+	</h3>
+</body>
+
+</html>
